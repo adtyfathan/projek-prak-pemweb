@@ -1193,7 +1193,7 @@
     position: relative;
     height: 17.5px;
 }
-.mdiyoutube {
+.logo {
     width: 48px;
     border-radius: 999px;
     background-color: #fff;
@@ -1214,7 +1214,7 @@
     overflow: hidden;
     flex-shrink: 0;
 }
-.mdiyoutube-parent {
+.logo-parent {
     display: flex;
     flex-direction: row;
     align-items: center;
