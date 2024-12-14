@@ -23,12 +23,12 @@
     include("koneksi.php");
 
     // render destinations
-    $result = mysqli_query($koneksi, "SELECT * FROM destinations");
+    $result = mysqli_query($koneksi, "SELECT * FROM tours");
     if (mysqli_num_rows($result) > 0) {
         while ($data = mysqli_fetch_assoc($result)) {
             echo '
                 <h1>' . $data['nama_tempat'] . '</h1>
-                <img src="./asset/' . $data['gambar_tempat'] . '"/>
+                <img src="data:image/jpeg;base64,' . base64_encode($data['gambar_tempat']) . '" alt="' . $data['nama_tempat'] . '"/>
                 <p>' . $data['deskripsi_tempat'] . '</p>
                 <form action="destination-detail.php" method="get">
                     <input type="hidden" name="id" value="' . $data['id'] . '"/>
