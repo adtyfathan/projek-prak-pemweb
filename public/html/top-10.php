@@ -64,7 +64,7 @@
             </div>
         </div>
         <div class="image-parent">
-            <img class="image-icon" alt="" src="image.png">
+            <img class="image-icon" alt="" src="../asset/1.jpg">
 
             <div class="image-3">
             </div>
@@ -101,7 +101,7 @@
                             <div class="frame-parent6">
                                 <div class="frame-parent7">
                                     <div class="image-10-parent">
-                                        <img class="image-10-icon" alt="" src="image 10.png">
+                                        <img class="image-10-icon" alt="" src="../asset/Renata Christine.jpg">
 
                                         <div class="renato-cristine-faro-parent">
                                             <div class="renato-cristine">Renato & Cristine Faro</div>
@@ -109,15 +109,15 @@
                                         </div>
                                     </div>
                                     <div class="line-mdstar-filled-parent">
-                                        <img class="line-mdstar-filled-icon" alt="" src="line-md:star-filled.svg">
+                                        <img class="line-mdstar-filled-icon" alt="" src="../asset/star-filled.png">
 
-                                        <img class="line-mdstar-filled-icon" alt="" src="line-md:star-filled.svg">
+                                        <img class="line-mdstar-filled-icon" alt="" src="../asset/star-filled.png">
 
-                                        <img class="line-mdstar-filled-icon" alt="" src="line-md:star-filled.svg">
+                                        <img class="line-mdstar-filled-icon" alt="" src="../asset/star-filled.png">
 
-                                        <img class="line-mdstar-filled-icon" alt="" src="line-md:star-filled.svg">
+                                        <img class="line-mdstar-filled-icon" alt="" src="../asset/star-filled.png">
 
-                                        <img class="line-mdstar-filled-icon" alt="" src="line-md:star-filled.svg">
+                                        <img class="line-mdstar-filled-icon" alt="" src="../asset/star-filled.png">
 
                                     </div>
                                 </div>
@@ -130,58 +130,56 @@
                             <div class="frame-parent6">
                                 <div class="frame-parent7">
                                     <div class="image-10-parent">
-                                        <img class="image-10-icon" alt="" src="image 10.png">
+                                        <img class="image-10-icon" alt="" src="../asset/JayPark NingYizhuo.jpg">
 
                                         <div class="renato-cristine-faro-parent">
-                                            <div class="renato-cristine">Renato & Cristine Faro</div>
-                                            <div class="november-2024">11 November 2024</div>
+                                            <div class="renato-cristine">JayPark & NingYizhuo</div>
+                                            <div class="november-2024">23 April 2020</div>
                                         </div>
                                     </div>
                                     <div class="line-mdstar-filled-parent">
-                                        <img class="line-mdstar-filled-icon" alt="" src="line-md:star-filled.svg">
+                                        <img class="line-mdstar-filled-icon" alt="" src="../asset/star-filled.png">
 
-                                        <img class="line-mdstar-filled-icon" alt="" src="line-md:star-filled.svg">
+                                        <img class="line-mdstar-filled-icon" alt="" src="../asset/star-filled.png">
 
-                                        <img class="line-mdstar-filled-icon" alt="" src="line-md:star-filled.svg">
+                                        <img class="line-mdstar-filled-icon" alt="" src="../asset/star-filled.png">
 
-                                        <img class="line-mdstar-filled-icon" alt="" src="line-md:star-filled.svg">
+                                        <img class="line-mdstar-filled-icon" alt="" src="../asset/star-filled.png">
 
-                                        <img class="line-mdstar-filled-icon" alt="" src="line-md:star-filled.svg">
+                                        <img class="line-mdstar-filled-icon" alt="" src="../asset/star-filled.png">
 
                                     </div>
                                 </div>
-                                <div class="i-recently-concluded">I recently concluded a 12-day tour of four cities in
-                                    China with Odynovo as a solo female traveler. Odynovo was truly the best from start
-                                    to finish: a superbly organized trip with hotels in excellent locations and</div>
+                                <div class="i-recently-concluded">8 day China Tour<br>
+                                    We just completed our 8 day China with Destenies and were very pleased with our trip. We travelled with 2 seniors (in their 70s), 2 adults, and 3 child there are our child anw</div>
                             </div>
                         </div>
                         <div class="frame-wrapper">
                             <div class="frame-parent6">
                                 <div class="frame-parent7">
                                     <div class="image-10-parent">
-                                        <img class="image-10-icon" alt="" src="image 10.png">
+                                        <img class="image-10-icon" alt="" src="../asset/Lenadra Mark lee.jpg">
 
                                         <div class="renato-cristine-faro-parent">
-                                            <div class="renato-cristine">Renato & Cristine Faro</div>
-                                            <div class="november-2024">11 November 2024</div>
+                                            <div class="renato-cristine">Leandra & Mark Lee</div>
+                                            <div class="november-2024">13 December 2023</div>
                                         </div>
                                     </div>
                                     <div class="line-mdstar-filled-parent">
-                                        <img class="line-mdstar-filled-icon" alt="" src="line-md:star-filled.svg">
+                                        <img class="line-mdstar-filled-icon" alt="" src="../asset/star-filled.png">
 
-                                        <img class="line-mdstar-filled-icon" alt="" src="line-md:star-filled.svg">
+                                        <img class="line-mdstar-filled-icon" alt="" src="../asset/star-filled.png">
 
-                                        <img class="line-mdstar-filled-icon" alt="" src="line-md:star-filled.svg">
+                                        <img class="line-mdstar-filled-icon" alt="" src="../asset/star-filled.png">
 
-                                        <img class="line-mdstar-filled-icon" alt="" src="line-md:star-filled.svg">
+                                        <img class="line-mdstar-filled-icon" alt="" src="../asset/star-filled.png">
 
-                                        <img class="line-mdstar-filled-icon" alt="" src="line-md:star-filled.svg">
+                                        <img class="line-mdstar-filled-icon" alt="" src="../asset/star-filled.png">
 
                                     </div>
                                 </div>
-                                <div class="i-recently-concluded">I recently concluded a 12-day tour of four cities in
-                                    China with Odynovo as a solo female traveler. Odynovo was truly the best from start
-                                    to finish: a superbly organized trip with hotels in excellent locations and</div>
+                                <div class="i-recently-concluded">Highly recommended trip around China!<br>
+                                    The tour organised by Destenies was fantastic. We didnt know what to expect but the trip went very smoothy and was stress free. We travelled From Beijing to Xian to Chengdu.</div>
                             </div>
                         </div>
                     </div>
@@ -207,36 +205,36 @@
                 <div class="frame-wrapper3">
                     <div class="frame-parent15">
                         <div class="image-6-parent">
-                            <img class="image-6-icon" alt="" src="image 6.png">
+                            <img class="image-6-icon" alt="" src="../asset/Sophia.jpg">
 
-                            <div class="kevin-yang-wrapper">
+                            <div class="traveler-wrapper">
                                 <div class="frame-parent16">
-                                    <div class="kevin-yang-wrapper">
-                                        <div class="kevin-yang">Kevin Yang</div>
+                                    <div class="traveler-wrapper">
+                                        <div class="traveler">Sophia</div>
                                     </div>
                                     <div class="senior-travel-expert">Senior Travel Expert</div>
                                 </div>
                             </div>
                         </div>
                         <div class="image-6-parent">
-                            <img class="image-6-icon" alt="" src="image 6.png">
+                            <img class="image-6-icon" alt="" src="../asset/Kevin Yang.jpg">
 
-                            <div class="kevin-yang-wrapper">
+                            <div class="traveler-wrapper">
                                 <div class="frame-parent16">
-                                    <div class="kevin-yang-wrapper">
-                                        <div class="kevin-yang">Kevin Yang</div>
+                                    <div class="traveler-wrapper">
+                                        <div class="traveler">Kevin Yang</div>
                                     </div>
                                     <div class="senior-travel-expert">Senior Travel Expert</div>
                                 </div>
                             </div>
                         </div>
                         <div class="image-6-parent">
-                            <img class="image-6-icon" alt="" src="image 6.png">
+                            <img class="image-6-icon" alt="" src="../asset/Zhong Liusm.jpg">
 
-                            <div class="kevin-yang-wrapper">
+                            <div class="traveler-wrapper">
                                 <div class="frame-parent16">
-                                    <div class="kevin-yang-wrapper">
-                                        <div class="kevin-yang">Kevin Yang</div>
+                                    <div class="traveler-wrapper">
+                                        <div class="traveler">Zhong Liusm</div>
                                     </div>
                                     <div class="senior-travel-expert">Senior Travel Expert</div>
                                 </div>
@@ -245,104 +243,7 @@
                     </div>
                 </div>
             </div>
-            <div class="frame-parent19">
-                <div class="china-tour-by-themes-parent">
-                    <div class="what-our-clients">China Tour by Themes</div>
-                    <div class="whether-you-are">Whether you are planning a family vacation or a senior tour, our travel
-                        specialists will customize the trip to perfectly match your interests and budget. Reach out to
-                        us, and let China Odyssey Tours bring your dream trip to life!</div>
-                </div>
-                <div class="group-parent">
-                    <div class="group-wrapper">
-
-                        <div class="image-7-parent">
-                            <img class="image-7-icon" alt="" src="image 7.png">
-
-                            <div class="image-8">
-                            </div>
-                            <b class="top-10-china">Nature</b>
-                        </div>
-                    </div>
-
-                    <div class="group-wrapper">
-
-                        <div class="image-7-parent">
-                            <img class="image-7-icon" alt="" src="image 7.png">
-
-                            <div class="image-8">
-                            </div>
-                            <b class="top-10-china">Modern</b>
-                        </div>
-                    </div>
-
-                    <div class="group-wrapper">
-
-                        <div class="image-7-parent">
-                            <img class="image-7-icon" alt="" src="image 7.png">
-
-                            <div class="image-8">
-                            </div>
-                            <b class="top-10-china">Culture</b>
-                        </div>
-                    </div>
-
-                    <div class="group-wrapper">
-
-                        <div class="image-7-parent">
-                            <img class="image-7-icon" alt="" src="image 7.png">
-
-                            <div class="image-8">
-                            </div>
-                            <b class="top-10-china">Art</b>
-                        </div>
-                    </div>
-
-                    <div class="group-wrapper">
-
-                        <div class="image-7-parent">
-                            <img class="image-7-icon" alt="" src="image 7.png">
-
-                            <div class="image-8">
-                            </div>
-                            <b class="top-10-china">History</b>
-                        </div>
-                    </div>
-
-                    <div class="group-wrapper">
-
-                        <div class="image-7-parent">
-                            <img class="image-7-icon" alt="" src="image 7.png">
-
-                            <div class="image-8">
-                            </div>
-                            <b class="top-10-china">Festival</b>
-                        </div>
-                    </div>
-
-                    <div class="group-wrapper">
-
-                        <div class="image-7-parent">
-                            <img class="image-7-icon" alt="" src="image 7.png">
-
-                            <div class="image-8">
-                            </div>
-                            <b class="top-10-china">Winter</b>
-                        </div>
-                    </div>
-
-                    <div class="group-wrapper">
-
-                        <div class="image-7-parent">
-                            <img class="image-7-icon" alt="" src="image 7.png">
-
-                            <div class="image-8">
-                            </div>
-                            <b class="top-10-china">Wildlife</b>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="frame-parent19">
+                <div class="frame-parent19">
                 <div class="china-tour-by-themes-parent">
                     <div class="what-our-clients">China Tour by Themes</div>
                     <div class="whether-you-are">Whether you are planning a family vacation or a senior tour, our travel
@@ -352,76 +253,67 @@
                 <div class="group-parent">
                     <div class="group-wrapper">
                         <div class="image-7-parent">
-                            <img class="image-7-icon" alt="" src="image 7.png">
+                            <img class="image-7-icon" alt="" src="../asset/e.jpg">
 
                             <div class="image-8">
                             </div>
-                            <b class="top-10-china">Top 10 China Tours</b>
                         </div>
                     </div>
                     <div class="group-wrapper">
                         <div class="image-7-parent">
-                            <img class="image-7-icon" alt="" src="image 7.png">
+                            <img class="image-7-icon" alt="" src="../asset/d.jpg">
 
                             <div class="image-8">
                             </div>
-                            <b class="top-10-china">Top 10 China Tours</b>
                         </div>
                     </div>
                     <div class="group-wrapper">
                         <div class="image-7-parent">
-                            <img class="image-7-icon" alt="" src="image 7.png">
-
-                            <img class="image-8-icon" alt="" src="image 8.svg">
-
-                            <b class="top-10-china">Top 10 China Tours</b>
+                            <img class="image-7-icon" alt="" src="../asset/b.jpg">
+                            <div class="image-8">
+                            </div>
                         </div>
                     </div>
                     <div class="group-wrapper">
                         <div class="image-7-parent">
-                            <img class="image-7-icon" alt="" src="image 7.png">
+                            <img class="image-7-icon" alt="" src="../asset/g.jpg">
 
                             <div class="image-8">
                             </div>
-                            <b class="top-10-china">Top 10 China Tours</b>
                         </div>
                     </div>
                 </div>
                 <div class="group-parent">
                     <div class="group-wrapper">
                         <div class="image-7-parent">
-                            <img class="image-7-icon" alt="" src="image 7.png">
+                            <img class="image-7-icon" alt="" src="../asset/f.jpg">
 
                             <div class="image-8">
                             </div>
-                            <b class="top-10-china">Top 10 China Tours</b>
                         </div>
                     </div>
                     <div class="group-wrapper">
                         <div class="image-7-parent">
-                            <img class="image-7-icon" alt="" src="image 7.png">
+                            <img class="image-7-icon" alt="" src="../asset/h.jpg">
 
                             <div class="image-8">
                             </div>
-                            <b class="top-10-china">Top 10 China Tours</b>
                         </div>
                     </div>
                     <div class="group-wrapper">
                         <div class="image-7-parent">
-                            <img class="image-7-icon" alt="" src="image 7.png">
+                            <img class="image-7-icon" alt="" src="../asset/a.jpg">
 
                             <div class="image-8">
                             </div>
-                            <b class="top-10-china">Top 10 China Tours</b>
                         </div>
                     </div>
                     <div class="group-wrapper">
                         <div class="image-7-parent">
-                            <img class="image-7-icon" alt="" src="image 7.png">
+                            <img class="image-7-icon" alt="" src="../asset/c626f6ff63c6b7c3594b694fe5ebcc85.jpg">
 
                             <div class="image-8">
                             </div>
-                            <b class="top-10-china">Top 10 China Tours</b>
                         </div>
                     </div>
                 </div>
@@ -438,7 +330,7 @@
                             <div class="dashiconsadmin-users">
                                 <img class="vector-icon2" alt="" src="../asset/Vector.png">
                             </div>
-                            <div class="kevin-yang-wrapper">
+                            <div class="traveler-wrapper">
                                 <div class="travel-expert-know-places-ins-wrapper">
                                     <div class="travel-expert-know">1:1 Travel Expert, Know Places Inside Out</div>
                                 </div>
@@ -449,7 +341,7 @@
                                 <img class="mingcutetask-2-fill-icon" alt="" src="../asset/mingcute_task-2-fill.png">
 
                             </div>
-                            <div class="kevin-yang-wrapper">
+                            <div class="traveler-wrapper">
                                 <div class="travel-expert-know-places-ins-wrapper">
                                     <div class="travel-expert-know">1:1 Travel Expert, Know Places Inside Out</div>
                                 </div>
@@ -460,7 +352,7 @@
                                 <img class="mingcutetask-2-fill-icon" alt="" src="../asset/material-symbols-light_reviews.png">
 
                             </div>
-                            <div class="kevin-yang-wrapper">
+                            <div class="traveler-wrapper">
                                 <div class="travel-expert-know-places-ins-wrapper">
                                     <div class="travel-expert-know">1:1 Travel Expert, Know Places Inside Out</div>
                                 </div>
@@ -471,7 +363,7 @@
                                 <img class="mingcutetask-2-fill-icon" alt="" src="../asset/tabler_beach.png">
 
                             </div>
-                            <div class="kevin-yang-wrapper">
+                            <div class="traveler-wrapper">
                                 <div class="travel-expert-know-places-ins-wrapper">
                                     <div class="travel-expert-know">1:1 Travel Expert, Know Places Inside Out</div>
                                 </div>
@@ -482,7 +374,7 @@
                                 <img class="mingcutetask-2-fill-icon" alt="" src="../asset/mdi_heart.png">
 
                             </div>
-                            <div class="kevin-yang-wrapper">
+                            <div class="traveler-wrapper">
                                 <div class="travel-expert-know-places-ins-wrapper">
                                     <div class="travel-expert-know">1:1 Travel Expert, Know Places Inside Out</div>
                                 </div>
