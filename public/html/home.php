@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, width=device-width">
@@ -9,19 +8,18 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" />
     <?php include "../php/home.php"?>
 </head>
-
 <body>
     <div class="home">
         <div class="frame-parent">
             <div class="frame-group">
                 <div class="frame-container">
                     <div class="material-symbolscall-outline-parent">
-                        <img class="material-symbolscall-outline-icon" alt="" src="material-symbols:call-outline.svg">
+                        <img class="material-symbolscall-outline-icon" alt="" src="asset/material-symbols_call-outline.png">
 
                         <div class="div">+1 3756 29391234</div>
                     </div>
                     <div class="material-symbolscall-outline-parent">
-                        <img class="material-symbolscall-outline-icon" alt="" src="material-symbols:call-outline.svg">
+                        <img class="material-symbolscall-outline-icon" alt="" src="asset/material-symbols_call-outline.png">
 
                         <div class="div">+1 3756 29391234</div>
                         <div class="div">/</div>
@@ -30,13 +28,13 @@
                 </div>
                 <div class="tailor-my-trip-parent">
                     <div class="tailor-my-trip">Tailor My Trip</div>
-                    <img class="weuiarrow-filled-icon" alt="" src="weui:arrow-filled.svg">
+                    <img class="weuiarrow-filled-icon" alt="" src="asset/weui_arrow-filled.png">
 
                 </div>
             </div>
             <div class="frame-div">
                 <div class="material-symbolstravel-parent">
-                    <img class="material-symbolstravel-icon" alt="" src="material-symbols:travel.svg">
+                    <img class="material-symbolstravel-icon" alt="" src="asset/material-symbols_travel.png">
 
                     <div class="cungkuo-tour">Cungkuo Tour</div>
                 </div>
@@ -44,12 +42,21 @@
                     <div class="frame-parent2">
                         <div class="china-tours-parent">
                             <div class="div">China Tours</div>
-                            <img class="icsharp-expand-more-icon" alt="" src="ic:sharp-expand-more.svg">
-
+                            <img class="icsharp-expand-more-icon" alt="" src="asset/ic_sharp-expand-more.png">
+                            <div class="dropdown_menu">
+                                <ul>
+                                    <li><a href="#">China Tours Main</a></li>
+                                    <li><a href="#">Top 10 China Tours</a></li>
+                                    <li><a href="#">1 Week Tours</a></li>
+                                    <li><a href="#">China Tour Package</a></li>
+                                    <li><a href="#">Student Tours</a></li>
+                                    <li><a href="#">China Theme Tours</a></li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="china-tours-parent">
                             <div class="div">About Us</div>
-                            <img class="icsharp-expand-more-icon" alt="" src="ic:sharp-expand-more.svg">
+                            <img class="icsharp-expand-more-icon" alt="" src="asset/ic_sharp-expand-more.png">
 
                         </div>
                         <div class="contact-us-wrapper">
@@ -60,7 +67,7 @@
                         </div>
                     </div>
                     <div class="icbaseline-search-parent">
-                        <img class="icsharp-expand-more-icon" alt="" src="ic:baseline-search.svg">
+                        <img class="icsharp-expand-more-icon" alt="" src="asset/ic_baseline-search.png">
 
                         <div class="div">Search Tours</div>
                     </div>
@@ -68,7 +75,7 @@
             </div>
         </div>
         <div class="image-2-parent">
-            <img class="image-2-icon" alt="" src="image 2.png">
+            <img class="image-2-icon" alt="" src="asset/image_home.jpg">
 
             <div class="image-3">
             </div>
@@ -76,7 +83,7 @@
         <div class="frame-parent3">
             <div class="weuiarrow-filled-parent">
                 <div class="weuiarrow-filled">
-                    <img class="vector-icon" alt="" src="Vector.svg">
+                    <img class="vector-icon" alt="" src="asset/Vector_left.png">
 
                 </div>
                 <div class="frame-parent4">
@@ -89,7 +96,7 @@
                     </div>
                 </div>
                 <div class="weuiarrow-filled1">
-                    <img class="vector-icon1" alt="" src="Vector.svg">
+                    <img class="vector-icon1" alt="" src="asset/Vector_right.png">
 
                 </div>
             </div>
@@ -455,7 +462,7 @@
             </div>
             <div class="weuiarrow-filled-group">
                 <div class="weuiarrow-filled">
-                    <img class="vector-icon" alt="" src="Vector.svg">
+                    <img class="vector-icon" alt="" src="asset/Vector_left.png">
 
                 </div>
                 <div class="frame-parent38">
@@ -548,7 +555,7 @@
                     </div>
                 </div>
                 <div class="weuiarrow-filled1">
-                    <img class="vector-icon1" alt="" src="Vector.svg">
+                    <img class="vector-icon1" alt="" src="asset/Vector_right.png">
 
                 </div>
             </div>
@@ -561,7 +568,7 @@
                 </div>
             </div>
             <div class="material-symbolsmail-outline">
-                <img class="vector-icon4" alt="" src="Vector.svg">
+                <img class="vector-icon4" alt="" src="asset/material-symbols_mail-outline.png">
 
             </div>
             <div class="frame-parent46">
@@ -626,7 +633,7 @@
                             </div>
                         </div>
                         <div class="tablerclock-filled-parent">
-                            <img class="tablerclock-filled-icon" alt="" src="tabler:clock-filled.svg">
+                            <img class="tablerclock-filled-icon" alt="" src="asset/tabler_clock-filled.png">
 
                             <div class="were-at-your-service-parent">
                                 <b class="china-odyssey-tours">We’re at your service</b>
@@ -638,32 +645,26 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mdiyoutube-parent">
-                        <div class="mdiyoutube">
-                            <img class="vector-icon5" alt="" src="Vector.svg">
+                    <div class="logo-parent">
+                        <div class="logo">
+                            <img class="vector-icon5" alt="" src="asset/youtube.png">
 
                         </div>
-                        <div class="mdiyoutube">
-                            <img class="icbaseline-facebook-icon" alt="" src="ic:baseline-facebook.svg">
+                        <div class="logo">
+                            <img class="icbaseline-facebook-icon" alt="" src="asset/facebook.png">
 
                         </div>
-                        <div class="mdiyoutube">
-                            <img class="icbaseline-facebook-icon" alt="" src="mdi:twitter.svg">
+                        <div class="logo">
+                            <img class="icbaseline-facebook-icon" alt="" src="asset/twitter.png">
 
                         </div>
-                        <div class="mdiyoutube">
-                            <img class="icbaseline-facebook-icon" alt="" src="ri:instagram-fill.svg">
-
+                        <div class="logo">
+                            <img class="icbaseline-facebook-icon" alt="" src="asset/instagram.png">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-
-
-
 </body>
-
 </html>
