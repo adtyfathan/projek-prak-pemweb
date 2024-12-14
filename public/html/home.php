@@ -38,7 +38,10 @@
                 <div class="material-symbolstravel-parent">
                     <img class="material-symbolstravel-icon" alt="" src="material-symbols:travel.svg">
 
-                    <div class="cungkuo-tour">Cungkuo Tour</div>
+                    <a href="home.php">
+                        <div class="cungkuo-tour">Cungkuo Tour</div>
+                    </a>
+
                 </div>
                 <div class="frame-parent1">
                     <div class="frame-parent2">
@@ -62,11 +65,22 @@
                     <div class="icbaseline-search-parent">
                         <img class="icsharp-expand-more-icon" alt="" src="ic:baseline-search.svg">
 
-                        <div class="div">Search Tours</div>
+                        <div class="div">
+                            <input id="search-input" type="text" placeholder="Search" />
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div id="search-wrapper" style="display: none;">
+            <h1 id="header-container">No results found</h1>
+            <div id="search-container">
+
+            </div>
+
+        </div>
+
         <div class="image-2-parent">
             <img class="image-2-icon" alt="" src="image 2.png">
 
@@ -129,17 +143,20 @@
             <div class="china-odyssey-tours">China Odyssey Tours | It's Your Very Own China Journey!</div>
             <div class="china-odyssey-tours-container">
                 <p class="china-odyssey-tours-has-been-p">China Odyssey Tours has been providing private, bespoke
-                    tours of China since the 1990s, ensuring that each traveler enjoys a unique and delightful journey.
+                    tours of China since the 1990s, ensuring that each traveler enjoys a unique and delightful
+                    journey.
                     Our team of travel experts, all native to China, has a deep understanding of the country's rich
                     culture, history, and hidden gems. From the moment you
                     <a class="send-us-an-inquiry" href="https://www.chinaodysseytours.com/contact-us.htm"
                         target="_blank">
                         <span class="send-us-an">contact us</span>
-                    </a>, you can rest assured that we will take care of every detail, from a personalized itinerary to
+                    </a>, you can rest assured that we will take care of every detail, from a personalized itinerary
+                    to
                     authentic experiences, hand-picked accommodations, expert guides, and 24/7 customer service.
                 </p>
                 <p class="china-odyssey-tours-has-been-p">&nbsp;</p>
-                <p class="china-odyssey-tours-has-been-p">With 98.5% of customers awarding us a 5-star rating, you can
+                <p class="china-odyssey-tours-has-been-p">With 98.5% of customers awarding us a 5-star rating, you
+                    can
                     be confident that your experience with us will exceed your expectations.</p>
             </div>
         </div>
@@ -148,7 +165,8 @@
                 <div class="popular-private-china-tours-parent">
                     <div class="china-odyssey-tours">Popular Private China Tours</div>
                     <div class="these-are-some-container">These are some of the best China tours designed to inspire
-                        your travel plans. Every tour offers authentic experiences and remarkable sights in China. Plus,
+                        your travel plans. Every tour offers authentic experiences and remarkable sights in China.
+                        Plus,
                         you can customize each itinerary to suit your preferences.
                         <a class="send-us-an-inquiry" href="https://www.chinaodysseytours.com/contact-us.htm"
                             target="_blank">
@@ -179,7 +197,7 @@
 														<div class="beijing-xian-shanghai">'.$data['nama_tempat'].'</div>
 													</div>
 													<div class="explore-this-tour-wrapper">
-														<div class="tailor-my-trip">Explore This Tour</div>
+                                                        <a href="explore-tour.php?id=' . $data['id'] . '" class="tailor-my-trip">Explore This Tour</a>
 													</div>
 												</div>
 											</div>
@@ -196,10 +214,13 @@
             </div>
             <div class="frame-parent7">
                 <div class="popular-private-china-tours-parent">
-                    <div class="experience-a-trip">Experience a trip of a lifetime with our top-rated small-group China
-                        tours! Journey through iconic destinations such as Beijing, Xi'an, Shanghai, Lhasa, and Chengdu.
+                    <div class="experience-a-trip">Experience a trip of a lifetime with our top-rated small-group
+                        China
+                        tours! Journey through iconic destinations such as Beijing, Xi'an, Shanghai, Lhasa, and
+                        Chengdu.
                         These tour packages include meals, domestic transport from flights to vehicles, cozy
-                        accommodations, must-see attractions, expert guides, and essential entry fees. Ensuring you a
+                        accommodations, must-see attractions, expert guides, and essential entry fees. Ensuring you
+                        a
                         hassle-free travel experience with the best value and unforgettable memories!</div>
                 </div>
                 <div class="frame-wrapper">
@@ -243,7 +264,8 @@
                 <div class="experience-a-trip">Feeling lost on how to plan your China trip? Our
                     <a class="send-us-an-inquiry" href="https://www.chinaodysseytours.com/inspiration/" target="_blank">
                         <span class="send-us-an">travel guides</span>
-                    </a> are designed to provide you with complete tips and suggestions about China travel, from visa
+                    </a> are designed to provide you with complete tips and suggestions about China travel, from
+                    visa
                     information to the best times to visit, top attractions, and authentic experiences.
                 </div>
             </div>
@@ -350,8 +372,10 @@
         <div class="frame-parent36">
             <div class="china-tour-by-themes-parent">
                 <div class="china-odyssey-tours">China Tour by Themes</div>
-                <div class="experience-a-trip">Whether you are planning a family vacation or a senior tour, our travel
-                    specialists will customize the trip to perfectly match your interests and budget. Reach out to us,
+                <div class="experience-a-trip">Whether you are planning a family vacation or a senior tour, our
+                    travel
+                    specialists will customize the trip to perfectly match your interests and budget. Reach out to
+                    us,
                     and let China Odyssey Tours bring your dream trip to life!</div>
             </div>
             <div class="group-parent">
@@ -483,8 +507,10 @@
 
                                 </div>
                             </div>
-                            <div class="i-recently-concluded">I recently concluded a 12-day tour of four cities in China
-                                with Odynovo as a solo female traveler. Odynovo was truly the best from start to finish:
+                            <div class="i-recently-concluded">I recently concluded a 12-day tour of four cities in
+                                China
+                                with Odynovo as a solo female traveler. Odynovo was truly the best from start to
+                                finish:
                                 a superbly organized trip with hotels in excellent locations and</div>
                         </div>
                     </div>
@@ -512,8 +538,10 @@
 
                                 </div>
                             </div>
-                            <div class="i-recently-concluded">I recently concluded a 12-day tour of four cities in China
-                                with Odynovo as a solo female traveler. Odynovo was truly the best from start to finish:
+                            <div class="i-recently-concluded">I recently concluded a 12-day tour of four cities in
+                                China
+                                with Odynovo as a solo female traveler. Odynovo was truly the best from start to
+                                finish:
                                 a superbly organized trip with hotels in excellent locations and</div>
                         </div>
                     </div>
@@ -541,8 +569,10 @@
 
                                 </div>
                             </div>
-                            <div class="i-recently-concluded">I recently concluded a 12-day tour of four cities in China
-                                with Odynovo as a solo female traveler. Odynovo was truly the best from start to finish:
+                            <div class="i-recently-concluded">I recently concluded a 12-day tour of four cities in
+                                China
+                                with Odynovo as a solo female traveler. Odynovo was truly the best from start to
+                                finish:
                                 a superbly organized trip with hotels in excellent locations and</div>
                         </div>
                     </div>
@@ -556,8 +586,10 @@
         <div class="frame-parent45">
             <div class="subscribe-to-win-a-free-tour-parent">
                 <div class="china-odyssey-tours">SUBSCRIBE TO WIN A FREE TOUR</div>
-                <div class="subscribe-to-our">Subscribe to our newsletter for a chance to win a free 7-day Vietnam tour!
-                    And more insider travel news, exclusive offers, and inspiration will be sent straight to your inbox.
+                <div class="subscribe-to-our">Subscribe to our newsletter for a chance to win a free 7-day Vietnam
+                    tour!
+                    And more insider travel news, exclusive offers, and inspiration will be sent straight to your
+                    inbox.
                 </div>
             </div>
             <div class="material-symbolsmail-outline">
@@ -661,9 +693,7 @@
         </div>
     </div>
 
-
-
-
+    <script src="../js/home.js"></script>
 </body>
 
 </html>
