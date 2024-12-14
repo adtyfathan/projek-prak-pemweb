@@ -597,13 +597,13 @@
     height: 179px;
     object-fit: cover;
 }
-.kevin-yang {
+.traveler {
     width: 148px;
     position: relative;
     font-weight: 500;
     display: inline-block;
 }
-.kevin-yang-wrapper {
+.traveler-wrapper {
     width: 159px;
     display: flex;
     flex-direction: column;
@@ -1159,3 +1159,4 @@
     color: #000;
     font-family: Poppins;
 }
+
