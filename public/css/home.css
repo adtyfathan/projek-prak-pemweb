@@ -81,6 +81,19 @@
     justify-content: flex-start;
     gap: 8px;
 }
+.dropdown_menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+}
+.dropdown_menu ul {
+    display: block;
+    margin: 10px;
+}
+.dropdown_menu ul li {
+    width: 150px;
+}
 .contact-us-wrapper {
     width: 152px;
     border-radius: 3px;
@@ -1076,7 +1089,7 @@
     position: relative;
     height: 17.5px;
 }
-.mdiyoutube {
+.logo {
     width: 48px;
     border-radius: 999px;
     background-color: #fff;
@@ -1097,7 +1110,7 @@
     overflow: hidden;
     flex-shrink: 0;
 }
-.mdiyoutube-parent {
+.logo-parent {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1146,4 +1159,3 @@
     color: #000;
     font-family: Poppins;
 }
-
