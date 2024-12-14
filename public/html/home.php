@@ -89,7 +89,7 @@
         </div>
 
         <div class="image-2-parent">
-            <img class="image-2-icon" alt="" src="../asset/4.jpg">
+            <img class="image-2-icon" alt="" src="../asset/image_home.jpg">
 
             <div class="image-3">
             </div>
@@ -312,7 +312,7 @@
                 <div class="tailor-my-trip">Tailor My Trip</div>
             </div>
             <div class="frame-wrapper6">
-                <div class="frame-parent30">
+                 <div class="frame-parent30">
                     <div class="image-6-parent16">
                         <img class="image-6-icon18" alt="" src="../asset/Xiao Ditya.jpg">
 
@@ -676,6 +676,10 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
+
     <script src="../js/home.js"></script>
+=======
+>>>>>>> 87ff3ca6e67c24e31b72aaa4c540061b19da0221
 </body>
 </html>
