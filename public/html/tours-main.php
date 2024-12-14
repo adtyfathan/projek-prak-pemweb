@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <title>Cungkou Tours</title>
+    <link rel="stylesheet" href="tours-main.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" />
+    <?php include "../php/tours-main.php"?>
 </head>
 <body>
     <div class="china-tours-main">
