@@ -28,19 +28,17 @@ inputContainer.addEventListener("input", (event) => {
         .then(data => {
             if (data.message) {
                 searchHeader.textContent = "No results found";
-                searchContainer.innerHTML = ""; // Clear the results container
+                searchContainer.innerHTML = ""; 
             } else {
                 searchHeader.textContent = "Results";
-                searchContainer.innerHTML = ""; // Clear previous results
+                searchContainer.innerHTML = ""; 
 
-                // Check if the data array is empty
                 if (data.length === 0) {
                     searchHeader.textContent = "No results found";
                     searchContainer.innerHTML = "";
                     return;
                 }
 
-                // Populate searchContainer with new results
                 data.forEach(item => {
                     const searchDiv = document.createElement("div");
                     searchDiv.innerHTML = `

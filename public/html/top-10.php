@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, width=device-width">
@@ -7,18 +8,21 @@
     <link rel="stylesheet" href="../css/top-10.css" />
     <?php include "../php/home.php"?>
 </head>
+
 <body>
     <div class="top-10">
         <div class="frame-parent">
             <div class="frame-group">
                 <div class="frame-container">
                     <div class="material-symbolscall-outline-parent">
-                        <img class="material-symbolscall-outline-icon" alt="" src="../asset/material-symbols_call-outline.png">
+                        <img class="material-symbolscall-outline-icon" alt=""
+                            src="../asset/material-symbols_call-outline.png">
 
                         <div class="div">+1 3756 29391234</div>
                     </div>
                     <div class="material-symbolscall-outline-parent">
-                        <img class="material-symbolscall-outline-icon" alt="" src="../asset/material-symbols_call-outline.png">
+                        <img class="material-symbolscall-outline-icon" alt=""
+                            src="../asset/material-symbols_call-outline.png">
 
                         <div class="div">+1 3756 29391234</div>
                         <div class="div">/</div>
@@ -245,103 +249,7 @@
                     </div>
                 </div>
             </div>
-            <div class="frame-parent19">
-                <div class="china-tour-by-themes-parent">
-                    <div class="what-our-clients">China Tour by Themes</div>
-                    <div class="whether-you-are">Whether you are planning a family vacation or a senior tour, our travel
-                        specialists will customize the trip to perfectly match your interests and budget. Reach out to
-                        us, and let China Odyssey Tours bring your dream trip to life!</div>
-                </div>
-                <div class="group-parent">
-                    <div class="group-wrapper">
 
-                        <div class="image-7-parent">
-                            <img class="image-7-icon" alt="" src="image 7.png">
-
-                            <div class="image-8">
-                            </div>
-                            <b class="top-10-china">Nature</b>
-                        </div>
-                    </div>
-
-                    <div class="group-wrapper">
-
-                        <div class="image-7-parent">
-                            <img class="image-7-icon" alt="" src="image 7.png">
-
-                            <div class="image-8">
-                            </div>
-                            <b class="top-10-china">Modern</b>
-                        </div>
-                    </div>
-
-                    <div class="group-wrapper">
-
-                        <div class="image-7-parent">
-                            <img class="image-7-icon" alt="" src="image 7.png">
-
-                            <div class="image-8">
-                            </div>
-                            <b class="top-10-china">Culture</b>
-                        </div>
-                    </div>
-
-                    <div class="group-wrapper">
-
-                        <div class="image-7-parent">
-                            <img class="image-7-icon" alt="" src="image 7.png">
-
-                            <div class="image-8">
-                            </div>
-                            <b class="top-10-china">Art</b>
-                        </div>
-                    </div>
-
-                    <div class="group-wrapper">
-
-                        <div class="image-7-parent">
-                            <img class="image-7-icon" alt="" src="image 7.png">
-
-                            <div class="image-8">
-                            </div>
-                            <b class="top-10-china">History</b>
-                        </div>
-                    </div>
-
-                    <div class="group-wrapper">
-
-                        <div class="image-7-parent">
-                            <img class="image-7-icon" alt="" src="image 7.png">
-
-                            <div class="image-8">
-                            </div>
-                            <b class="top-10-china">Festival</b>
-                        </div>
-                    </div>
-
-                    <div class="group-wrapper">
-
-                        <div class="image-7-parent">
-                            <img class="image-7-icon" alt="" src="image 7.png">
-
-                            <div class="image-8">
-                            </div>
-                            <b class="top-10-china">Winter</b>
-                        </div>
-                    </div>
-
-                    <div class="group-wrapper">
-
-                        <div class="image-7-parent">
-                            <img class="image-7-icon" alt="" src="image 7.png">
-
-                            <div class="image-8">
-                            </div>
-                            <b class="top-10-china">Wildlife</b>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="frame-parent19">
                 <div class="china-tour-by-themes-parent">
                     <div class="what-our-clients">China Tour by Themes</div>
@@ -457,7 +365,8 @@
                         </div>
                         <div class="image-6-parent">
                             <div class="dashiconsadmin-users">
-                                <img class="mingcutetask-2-fill-icon" alt="" src="../asset/material-symbols-light_reviews.png">
+                                <img class="mingcutetask-2-fill-icon" alt=""
+                                    src="../asset/material-symbols-light_reviews.png">
 
                             </div>
                             <div class="kevin-yang-wrapper">
@@ -667,4 +576,5 @@
         </div>
     </div>
 </body>
+
 </html>
