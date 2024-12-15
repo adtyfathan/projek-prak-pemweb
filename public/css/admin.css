@@ -1,0 +1,145 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Admin POV Container */
+.admin-pov {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Sidebar Navigation */
+.menu {
+    width: 300px;
+    background-color: #ffffff;
+    border-right: 1px solid #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu img {
+    margin-bottom: 20px;
+}
+
+.navigationelementsverticall {
+    width: 100%;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navigationelementsverticall:hover {
+    background-color: #f4f4f4;
+    color: #d25b68;
+}
+
+.navigationelementsverticall img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Sidebar Active State */
+.navigationelementsverticall.active {
+    background-color: #d25b68;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Main Content */
+.group-parent {
+    flex: 1;
+    padding: 40px;
+    overflow-y: auto;
+}
+
+.frame-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.senior-friendly-tours {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.china-is-a {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #666;
+}
+
+/* Stars */
+.line-mdstar-filled-parent {
+    display: flex;
+    gap: 5px;
+}
+
+.line-mdstar-filled-icon {
+    width: 20px;
+    height: 20px;
+}
+
+/* Pagination */
+.previous-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.previous,
+.wrapper,
+.container {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.previous:hover,
+.wrapper:hover,
+.container:hover {
+    background-color: #d25b68;
+    color: #fff;
+}
+
+.wrapper {
+    background-color: #d25b68;
+    color: #fff;
+}
+
+.container {
+    background-color: #e0e0e0;
+    color: #333;
+}
