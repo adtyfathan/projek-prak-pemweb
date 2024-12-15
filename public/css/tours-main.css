@@ -85,6 +85,62 @@ body {
     align-items: center;
     justify-content: flex-start;
     gap: 8px;
+    position: relative;
+}
+.dropdown_menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    width: 700px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    z-index: 1000;
+}
+.dropdown-columns {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.dropdown-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.dropdown-column a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    transition: color 0.3s ease;
+}
+.dropdown-column a:hover {
+    color: #ddb465;
+}
+.dropdown-button {
+    text-align: center;
+    margin-top: 20px;
+}
+.all-theme-tours-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #ddb465;
+    padding: 10px;
+    border: 1px solid #ddb465;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 22px;
+}
+.all-theme-tours-button:hover {
+    background-color: #ddb465;
+    color: #fff;
+}
+.china-tours-parent:hover .dropdown_menu {
+    display: block;
 }
 .contact-us-wrapper {
     width: 152px;
