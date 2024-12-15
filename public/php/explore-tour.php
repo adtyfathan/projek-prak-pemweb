@@ -30,6 +30,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($_POST['message']) && isset($_POST['rating'])) {
         $message = htmlspecialchars($_POST['message']);
         $rating = (int)$_POST['rating'];
+        $result = $koneksi->prepare("SELECT nama FROM users WHERE id = ?");
+        $result->bind_param("i", $user_id);
+        $result->execute();
+        $res= $result->get_result();
+
+        if ($row = $res->fetch_assoc()) {
+            $nama = $row['nama'];
+        } else {
+            echo "error: User not found.";
+            exit();
+        }
+        $result->close(); // Close the first statement
 
         // Validate rating
         if ($rating <= 0 || $rating > 5) {
@@ -40,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         error_log("User ID: $user_id, Tour ID: $tour_id, Rating: $rating, Message: $message");
 
         // Prepare SQL
-        $stmt = $koneksi->prepare("INSERT INTO comments (user_id, tour_id, rating, messages) VALUES (?, ?, ?, ?)");
+        $stmt = $koneksi->prepare("INSERT INTO comments (user_id, tour_id, rating, messages, nama) VALUES (?, ?, ?, ?, ?)");
 
         if ($stmt === false) {
             error_log('SQL Prepare Error: ' . $koneksi->error);
@@ -48,7 +60,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             exit();
         }
 
-        $stmt->bind_param("iiis", $user_id, $tour_id, $rating, $message);
+        $stmt->bind_param("iiiss", $user_id, $tour_id, $rating, $message, $nama);
 
         if (!$stmt->execute()) {
             error_log('SQL Execution Error: ' . $stmt->error);

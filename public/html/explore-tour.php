@@ -164,7 +164,14 @@
                 </div>
             </div>
             <div class="get-a-quote-wrapper">
-                <div class="cungkuo-tour">Get a Quote</div>
+                <?php
+					echo '
+						<a href="get-quote.php?id='.$tour_id.'">
+							<div class="cungkuo-tour">Get a Quote</div>
+						</a>
+					';                	
+				?>
+
             </div>
         </div>
         <div class="frame-parent7">
@@ -516,93 +523,67 @@
 
                 </div>
                 <div class="frame-parent36">
-                    <div class="frame-wrapper1">
-                        <div class="about-this-trip-parent">
-                            <div class="frame-parent38">
-                                <div class="image-10-parent">
-                                    <img class="image-10-icon" alt="" src="image 10.png">
 
-                                    <div class="renato-cristine-faro-parent">
-                                        <div class="duration">Renato & Cristine Faro</div>
-                                        <div class="november-2024">11 November 2024</div>
-                                    </div>
-                                </div>
-                                <div class="line-mdstar-filled-group">
-                                    <img class="material-symbolsbed-icon" alt="" src="../asset/star-filled.png">
+                    <?php
+						include("../php/koneksi.php");
 
-                                    <img class="material-symbolsbed-icon" alt="" src="../asset/star-filled.png">
+						$tourId = $_GET["id"];
 
-                                    <img class="material-symbolsbed-icon" alt="" src="../asset/star-filled.png">
+						$stmt = $koneksi->prepare("SELECT * FROM comments WHERE tour_id = ?");
+						$stmt->bind_param("i", $tourId);
+						$stmt->execute();
+						$result = $stmt->get_result();
 
-                                    <img class="material-symbolsbed-icon" alt="" src="../asset/star-filled.png">
+						if ($row = $result->fetch_assoc()) {
+							$nama = $row['nama'];
+							$rating = (int)$row['rating']; // Retrieve and cast rating to integer
 
-                                    <img class="material-symbolsbed-icon" alt="" src="../asset/star-filled.png">
+							// Generate star icons dynamically based on rating
+							$filledStars = $rating;      // Number of filled stars
+							$emptyStars = 5 - $rating;   // Number of empty stars
 
-                                </div>
-                            </div>
-                            <div class="i-recently-concluded">I recently concluded a 12-day tour of four cities in China
-                                with Odynovo as a solo female traveler. Odynovo was truly the best from start to finish:
-                                a superbly organized trip with hotels in excellent locations and</div>
-                        </div>
-                    </div>
-                    <div class="frame-wrapper1">
-                        <div class="about-this-trip-parent">
-                            <div class="frame-parent38">
-                                <div class="image-10-parent">
-                                    <img class="image-10-icon" alt="" src="image 10.png">
+							echo '
+								<div class="frame-wrapper1">
+									<div class="about-this-trip-parent">
+										<div class="frame-parent38">
+											<div class="image-10-parent">
+												<img class="image-10-icon" alt="" src="../asset/profile.jpg">
 
-                                    <div class="renato-cristine-faro-parent">
-                                        <div class="duration">Renato & Cristine Faro</div>
-                                        <div class="november-2024">11 November 2024</div>
-                                    </div>
-                                </div>
-                                <div class="line-mdstar-filled-group">
-                                    <img class="material-symbolsbed-icon" alt="" src="../asset/star-filled.png">
+												<div class="renato-cristine-faro-parent">
+													<div class="duration">' . htmlspecialchars($nama) . '</div>
+												</div>
+											</div>
+											<div class="line-mdstar-filled-group">
+							';
 
-                                    <img class="material-symbolsbed-icon" alt="" src="../asset/star-filled.png">
+							// Loop to display filled stars
+							for ($i = 0; $i < $filledStars; $i++) {
+								echo '<img class="material-symbolsbed-icon" alt="" src="../asset/star_filled.png">';
+							}
 
-                                    <img class="material-symbolsbed-icon" alt="" src="../asset/star-filled.png">
+							// Loop to display empty stars
+							for ($i = 0; $i < $emptyStars; $i++) {
+								echo '<img class="material-symbolsbed-icon" alt="" src="../asset/star.png">';
+							}
 
-                                    <img class="material-symbolsbed-icon" alt="" src="../asset/star-filled.png">
+							echo '
+											</div>
+										</div>
+										<div class="i-recently-concluded">
+											' . htmlspecialchars($row['messages']) . '
+										</div>
+									</div>
+								</div>
+							';
+						} else {
+							echo "error: Comments not found.";
+							exit();
+						}
 
-                                    <img class="material-symbolsbed-icon" alt="" src="../asset/star-filled.png">
+						$result->close();
+						$stmt->close();
+					?>
 
-                                </div>
-                            </div>
-                            <div class="i-recently-concluded">I recently concluded a 12-day tour of four cities in China
-                                with Odynovo as a solo female traveler. Odynovo was truly the best from start to finish:
-                                a superbly organized trip with hotels in excellent locations and</div>
-                        </div>
-                    </div>
-                    <div class="frame-wrapper1">
-                        <div class="about-this-trip-parent">
-                            <div class="frame-parent38">
-                                <div class="image-10-parent">
-                                    <img class="image-10-icon" alt="" src="image 10.png">
-
-                                    <div class="renato-cristine-faro-parent">
-                                        <div class="duration">Renato & Cristine Faro</div>
-                                        <div class="november-2024">11 November 2024</div>
-                                    </div>
-                                </div>
-                                <div class="line-mdstar-filled-group">
-                                    <img class="material-symbolsbed-icon" alt="" src="../asset/star-filled.png">
-
-                                    <img class="material-symbolsbed-icon" alt="" src="../asset/star-filled.png">
-
-                                    <img class="material-symbolsbed-icon" alt="" src="../asset/star-filled.png">
-
-                                    <img class="material-symbolsbed-icon" alt="" src="../asset/star-filled.png">
-
-                                    <img class="material-symbolsbed-icon" alt="" src="../asset/star-filled.png">
-
-                                </div>
-                            </div>
-                            <div class="i-recently-concluded">I recently concluded a 12-day tour of four cities in China
-                                with Odynovo as a solo female traveler. Odynovo was truly the best from start to finish:
-                                a superbly organized trip with hotels in excellent locations and</div>
-                        </div>
-                    </div>
                 </div>
                 <div class="weuiarrow-filled1">
                     <img class="vector-icon1" alt="" src="../asset/Vector_right.png">
