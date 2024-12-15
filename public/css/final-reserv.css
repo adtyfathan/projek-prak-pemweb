@@ -1,0 +1,543 @@
+body {
+    margin: 0;
+    line-height: normal;
+}
+.material-symbolscall-outline-icon {
+    width: 26px;
+    position: relative;
+    height: 26px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.div {
+    position: relative;
+}
+.material-symbolscall-outline-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 14px;
+}
+.frame-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.tailor-my-trip {
+    position: relative;
+    font-weight: 600;
+}
+.weuiarrow-filled-icon {
+    width: 12px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.tailor-my-trip-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 19px;
+    color: #ddb465;
+}
+.frame-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 65px;
+}
+.material-symbolstravel-icon {
+    width: 42px;
+    position: relative;
+    height: 42px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.cungkuo-tour {
+    position: relative;
+    font-weight: 500;
+}
+.material-symbolstravel-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+}
+.icsharp-expand-more-icon {
+    width: 36px;
+    position: relative;
+    height: 36px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.china-tours-parent {
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    position: relative;
+}
+.dropdown_menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    width: 700px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    z-index: 1000;
+}
+.dropdown-columns {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.dropdown-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.dropdown-column a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    transition: color 0.3s ease;
+}
+.dropdown-column a:hover {
+    color: #ddb465;
+}
+.dropdown-button {
+    text-align: center;
+    margin-top: 20px;
+}
+.all-theme-tours-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #ddb465;
+    padding: 10px;
+    border: 1px solid #ddb465;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 22px;
+}
+.all-theme-tours-button:hover {
+    background-color: #ddb465;
+    color: #fff;
+}
+.china-tours-parent:hover .dropdown_menu {
+    display: block;
+}
+.contact-us-wrapper {
+    width: 152px;
+    border-radius: 3px;
+    background-color: #1e1e1e;
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.frame-parent2 {
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 35px;
+}
+.icbaseline-search-parent {
+    width: 251px;
+    border-radius: 5px;
+    border: 1px solid #b4b4b4;
+    box-sizing: border-box;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 10px;
+    gap: 17px;
+    font-size: 18px;
+    color: #707070;
+}
+.frame-parent1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 44px;
+    font-size: 22px;
+}
+.frame-div {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 110px;
+    font-size: 36px;
+}
+.frame-parent {
+    position: absolute;
+    top: 29px;
+    left: 92px;
+    width: 1256px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 27px;
+}
+.home-china {
+    position: absolute;
+    top: 224px;
+    left: 101px;
+    font-size: 16px;
+    display: inline-block;
+    width: 545px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.youre-interested-in {
+    margin: 0;
+}
+.beijing-xian {
+    margin: 0;
+    color: #ddb465;
+}
+.youre-interested-in-container {
+    position: absolute;
+    top: 276px;
+    left: 97px;
+    font-size: 20px;
+    display: inline-block;
+    width: 919px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.thannk-you-wrapper {
+    align-self: stretch;
+    background-color: #544d3a;
+    height: 84px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.frame-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.send-inquiry-wrapper {
+    width: 266px;
+    border-radius: 10px;
+    background-color: #b25021;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.your-reservation-hase {
+    align-self: stretch;
+    position: relative;
+    font-size: 18px;
+    color: #9a9a9a;
+}
+.frame-parent4 {
+    width: 677px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 13px;
+    font-size: 22px;
+}
+.frame-parent3 {
+    position: absolute;
+    top: 543px;
+    left: 97px;
+    border-radius: 0px 0px 20px 20px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 1033px;
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 70px;
+    font-size: 30px;
+    color: #fff;
+}
+.hot-destinations {
+    align-self: stretch;
+    position: relative;
+}
+.beijing {
+    width: 106px;
+    position: relative;
+    display: inline-block;
+}
+.beijing-parent {
+    width: 106px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.frame-parent8 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+    text-align: left;
+    font-size: 20px;
+}
+.hot-destinations-parent {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 18px;
+    text-align: center;
+}
+.review-by-clients {
+    width: 256px;
+    position: relative;
+    display: inline-block;
+}
+.frame-wrapper2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 20px;
+}
+.company-parent {
+    width: 216px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 18px;
+}
+.customer-center {
+    width: 181px;
+    position: relative;
+    display: inline-block;
+}
+.resource-parent {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 18px;
+}
+.frame-parent7 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 58px;
+}
+.tablerclock-filled-icon {
+    width: 50px;
+    position: relative;
+    height: 50px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.parent {
+    width: 168px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 7px;
+    font-size: 20px;
+    color: #fff;
+}
+.were-at-your-service-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 31px;
+}
+.tablerclock-filled-parent {
+    width: 326px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 30px;
+    color: #ddb465;
+}
+.frame-parent6 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 92px;
+}
+.vector-icon {
+    width: 25px;
+    position: relative;
+    height: 17.5px;
+}
+.logo {
+    width: 48px;
+    border-radius: 999px;
+    background-color: #fff;
+    height: 48px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 3px;
+    box-sizing: border-box;
+}
+.icbaseline-facebook-icon {
+    width: 30px;
+    position: relative;
+    height: 30px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.logo-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 35px;
+}
+.frame-parent5 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 61px;
+}
+.frame-wrapper1 {
+    align-self: stretch;
+    background-color: #544d3a;
+    height: 454px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.final-reserv-inner {
+    position: absolute;
+    top: 2239px;
+    left: 0px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 28px;
+    color: #fff;
+}
+.whether-you-are {
+    width: 1298px;
+    position: relative;
+    font-size: 18px;
+    text-align: justify;
+    display: inline-block;
+}
+.the-beauty-of-china-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.image-7-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    width: 304px;
+    height: 246px;
+    object-fit: cover;
+}
+.image-7-parent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 304px;
+    height: 246px;
+}
+.group-wrapper {
+    width: 304px;
+    position: relative;
+    height: 246px;
+}
+.group-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}
+.frame-parent9 {
+    position: absolute;
+    top: 1418px;
+    left: 56px;
+    width: 1310px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 42px;
+    text-align: center;
+    font-size: 36px;
+}
+.final-reserv {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 2693px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 18px;
+    color: #000;
+    font-family: Poppins;
+}
+
