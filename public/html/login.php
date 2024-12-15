@@ -10,7 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@300;400;700&display=swap"
         rel="stylesheet">
-    <?php include "../php/login.php" ?>
+    <?php include "../php/login.php"?>
 </head>
 
 <body>
@@ -41,10 +41,3 @@
 </body>
 
 </html>
-
-
-
-<!-- <script>
-    const loginForm = document.getElementById("login-form");
-    loginForm.addEventListener("submit", (event) => event.preventDefault());
-    </script> -->
