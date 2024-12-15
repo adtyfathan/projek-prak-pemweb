@@ -4,6 +4,7 @@
   	<meta charset="utf-8">
   	<meta name="viewport" content="initial-scale=1, width=device-width">
   	<title>Cungkuo Tour</title>
+  <link rel="icon" href="../asset/favicon.png">
   	<link rel="stylesheet"  href="../css/get-quote.css" />
   	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" /> 	
 </head>
