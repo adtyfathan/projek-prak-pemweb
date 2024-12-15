@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, width=device-width">
@@ -9,18 +10,21 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" />
     <?php include "../php/home.php"?>
 </head>
+
 <body>
     <div class="home">
         <div class="frame-parent">
             <div class="frame-group">
                 <div class="frame-container">
                     <div class="material-symbolscall-outline-parent">
-                        <img class="material-symbolscall-outline-icon" alt="" src="../asset/material-symbols_call-outline.png">
+                        <img class="material-symbolscall-outline-icon" alt=""
+                            src="../asset/material-symbols_call-outline.png">
 
                         <div class="div">+1 3756 29391234</div>
                     </div>
                     <div class="material-symbolscall-outline-parent">
-                        <img class="material-symbolscall-outline-icon" alt="" src="../asset/material-symbols_call-outline.png">
+                        <img class="material-symbolscall-outline-icon" alt=""
+                            src="../asset/material-symbols_call-outline.png">
 
                         <div class="div">+1 3756 29391234</div>
                         <div class="div">/</div>
@@ -43,29 +47,29 @@
                 </div>
                 <div class="frame-parent1">
                     <div class="frame-parent2">
-                            <div class="china-tours-parent">
-                                <div class="div">China Tours</div>
-                                <img class="icsharp-expand-more-icon" alt="" src="../asset/ic_sharp-expand-more.png">
-                                <div class="dropdown_menu">
-                                    <div class="dropdown-columns">
-                                        <div class="dropdown-column">
-                                            <a href="../html/home.php">Best China Tours</a>
-                                            <a href="../html/tours-main.php">Senior Friendly Tours</a>
-                                            <a href="../html/top-10.php">Top 4 Best China Tours</a>
-                                            <a href="../html/1-week.php">1 Week Tours</a>
-                                        </div>
-                                        <div class="dropdown-column">
-                                            <a href="../html/tour-package.php">China Tour Package</a>
-                                            <a href="../html/student-tour.php">China Tour for Students</a>
-                                            <a href="../html/home.php">1st Time Travel China</a>
-                                            <a href="../html/theme-tour.php">China Theme</a>
-                                        </div>
+                        <div class="china-tours-parent">
+                            <div class="div">China Tours</div>
+                            <img class="icsharp-expand-more-icon" alt="" src="../asset/ic_sharp-expand-more.png">
+                            <div class="dropdown_menu">
+                                <div class="dropdown-columns">
+                                    <div class="dropdown-column">
+                                        <a href="../html/home.php">Best China Tours</a>
+                                        <a href="../html/tours-main.php">Senior Friendly Tours</a>
+                                        <a href="../html/top-10.php">Top 4 Best China Tours</a>
+                                        <a href="../html/1-week.php">1 Week Tours</a>
                                     </div>
-                                    <div class="dropdown-button">
-                                        <a href="#" class="all-theme-tours-button">All Theme Tours</a>
+                                    <div class="dropdown-column">
+                                        <a href="../html/tour-package.php">China Tour Package</a>
+                                        <a href="../html/student-tour.php">China Tour for Students</a>
+                                        <a href="../html/home.php">1st Time Travel China</a>
+                                        <a href="../html/theme-tour.php">China Theme</a>
                                     </div>
                                 </div>
+                                <div class="dropdown-button">
+                                    <a href="#" class="all-theme-tours-button">All Theme Tours</a>
+                                </div>
                             </div>
+                        </div>
                         <div class="china-tours-parent">
                             <div class="div">About Us</div>
                             <img class="icsharp-expand-more-icon" alt="" src="../asset/ic_sharp-expand-more.png">
@@ -208,8 +212,8 @@
 
 												<div class="frame-parent11">
 													<div class="beijing-xian-shanghai-best-parent">
-														<div class="beijing-xian">'.$data['nama_tempat'].'</div>
-														<div class="china-odyssey-tours">'.$data['jumlah_hari'].'</div>
+														<div class="beijing-xian">'.$data['nama_tempat'].' Tours</div>
+														<div class="china-odyssey-tours">'.$data['jumlah_hari'].' days</div>
 														<div class="beijing-xian-shanghai">'.$data['nama_tempat'].'</div>
 													</div>
 													<div class="explore-this-tour-wrapper">
@@ -256,12 +260,14 @@
 
                                                 <div class="frame-parent11">
                                                     <div class="beijing-xian-shanghai-best-parent">
-                                                        <div class="beijing-xian">'.$data['nama_tempat'].'</div>
-                                                        <div class="china-odyssey-tours">'.$data['jumlah_hari'].'</div>
+                                                        <div class="beijing-xian">'.$data['nama_tempat'].' Tours</div>
+                                                        <div class="china-odyssey-tours">'.$data['jumlah_hari'].' Days</div>
                                                         <div class="beijing-xian-shanghai">'.$data['nama_tempat'].'</div>
                                                     </div>
                                                     <div class="explore-this-tour-wrapper">
-                                                        <div class="tailor-my-trip">Explore This Tour</div>
+                                                        <div class="tailor-my-trip">
+                                                            <a href="explore-tour.php?id=' . $data['id'] . '" class="tailor-my-trip">Explore This Tour</a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -387,7 +393,7 @@
         </div>
         <div class="frame-parent36">
             <div class="china-tour-by-themes-parent">
-                <div class="china-odyssey-tours">China Tour by Themes</div>
+                <div class="china-odyssey-tours">The Beauty of China</div>
                 <div class="experience-a-trip">Whether you are planning a family vacation or a senior tour, our
                     travel
                     specialists will customize the trip to perfectly match your interests and budget. Reach out to
@@ -469,7 +475,7 @@
             </div>
         </div>
         <div class="view-more-container">
-            <div class="tailor-my-trip">View More</div>
+            <div class="tailor-my-trip"><a href="theme-tour.php">View More</a></div>
         </div>
         <div class="frame-parent37">
             <div class="what-our-clients-say-parent">
@@ -482,98 +488,56 @@
                     <img class="vector-icon" alt="" src="../asset/Vector_left.png">
 
                 </div>
-                <div class="frame-parent38">
-                    <div class="frame-wrapper12">
-                        <div class="frame-parent39">
-                            <div class="frame-parent40">
-                                <div class="image-10-parent">
-                                    <img class="image-10-icon" alt="" src="../asset/Renata Christine.jpg">
 
-                                    <div class="renato-cristine-faro-parent">
-                                        <div class="renato-cristine">Renato & Cristine Faro</div>
-                                        <div class="november-2024">11 November 2024</div>
+                <?php
+                    include("../php/koneksi.php");
+
+                    $stmt = $koneksi->prepare("SELECT * FROM comments");
+                    $stmt->execute();
+                    $result = $stmt->get_result();
+
+                    while ($row = $result->fetch_assoc()) {
+                        $rating = (int)$row['rating'];
+                        $filledStars = $rating;
+                        $emptyStars = 5 - $rating;
+
+                        echo '
+                            <div class="frame-parent38">
+                                <div class="frame-wrapper12">
+                                    <div class="frame-parent39">
+                                        <div class="frame-parent40">
+                                            <div class="image-10-parent">
+                                                <img class="image-10-icon" alt="" src="../asset/Renata Christine.jpg">
+
+                                                <div class="renato-cristine-faro-parent">
+                                                    <div class="renato-cristine">' . htmlspecialchars($row['nama']) . '</div>
+                                                </div>
+                                            </div>
+                                            <div class="line-mdstar-filled-parent">';
+                                            
+                                            for ($i = 0; $i < $filledStars; $i++) {
+                                                echo '<img class="line-mdstar-filled-icon" alt="" src="../asset/star-filled.png">';
+                                            }
+
+                                            for ($i = 0; $i < $emptyStars; $i++) {
+                                                echo '<img class="line-mdstar-filled-icon" alt="" src="../asset/star.png">';
+                                            }
+
+                        echo '
+                                            </div>
+                                        </div>
+                                        <div class="i-recently-concluded">' . htmlspecialchars($row['messages']) . '</div>
                                     </div>
                                 </div>
-                                <div class="line-mdstar-filled-parent">
-                                    <img class="line-mdstar-filled-icon" alt="" src="../asset/star-filled.png">
-
-                                    <img class="line-mdstar-filled-icon" alt="" src="../asset/star-filled.png">
-
-                                    <img class="line-mdstar-filled-icon" alt="" src="../asset/star-filled.png">
-
-                                    <img class="line-mdstar-filled-icon" alt="" src="../asset/star-filled.png">
-
-                                    <img class="line-mdstar-filled-icon" alt="" src="../asset/star-filled.png">
-
-                                </div>
                             </div>
-                            <div class="i-recently-concluded">I recently concluded a 12-day tour of four cities in
-                                China
-                                with Odynovo as a solo female traveler. Odynovo was truly the best from start to
-                                finish:
-                                a superbly organized trip with hotels in excellent locations and</div>
-                        </div>
-                    </div>
-                    <div class="frame-wrapper12">
-                        <div class="frame-parent39">
-                            <div class="frame-parent40">
-                                <div class="image-10-parent">
-                                    <img class="image-10-icon" alt="" src="../asset/JayPark NingYizhuo.jpg">
+                        ';
+                    }
 
-                                    <div class="renato-cristine-faro-parent">
-                                        <div class="renato-cristine">JayPark & NingYizhuo</div>
-                                        <div class="november-2024">23 April 2020</div>
-                                    </div>
-                                </div>
-                                <div class="line-mdstar-filled-parent">
-                                    <img class="line-mdstar-filled-icon" alt="" src="../asset/star-filled.png">
+                    $stmt->close();
+                    ?>
 
-                                    <img class="line-mdstar-filled-icon" alt="" src="../asset/star-filled.png">
-
-                                    <img class="line-mdstar-filled-icon" alt="" src="../asset/star-filled.png">
-
-                                    <img class="line-mdstar-filled-icon" alt="" src="../asset/star-filled.png">
-
-                                    <img class="line-mdstar-filled-icon" alt="" src="../asset/star-filled.png">
-
-                                </div>
-                            </div>
-                            <div class="i-recently-concluded">8 day China Tour<br>
-                                We just completed our 8 day China with Destenies and were very pleased with our trip. We travelled with 2 seniors (in their 70s), 2 adults, and 3 child there are our child anw</div>
-                        </div>
-                    </div>
-                    <div class="frame-wrapper12">
-                        <div class="frame-parent39">
-                            <div class="frame-parent40">
-                                <div class="image-10-parent">
-                                    <img class="image-10-icon" alt="" src="../asset/Lenadra Mark lee.jpg">
-
-                                    <div class="renato-cristine-faro-parent">
-                                        <div class="renato-cristine">Leandra & Mark Lee</div>
-                                        <div class="november-2024">13 December 2023</div>
-                                    </div>
-                                </div>
-                                <div class="line-mdstar-filled-parent">
-                                    <img class="line-mdstar-filled-icon" alt="" src="../asset/star-filled.png">
-
-                                    <img class="line-mdstar-filled-icon" alt="" src="../asset/star-filled.png">
-
-                                    <img class="line-mdstar-filled-icon" alt="" src="../asset/star-filled.png">
-
-                                    <img class="line-mdstar-filled-icon" alt="" src="../asset/star-filled.png">
-
-                                    <img class="line-mdstar-filled-icon" alt="" src="../asset/star-filled.png">
-
-                                </div>
-                            </div>
-                        <div class="i-recently-concluded">Highly recommended trip around China!<br>
-                                The tour organised by Destenies was fantastic. We didnt know what to expect but the trip went very smoothy and was stress free. We travelled From Beijing to Xian to Chengdu.</div>
-                        </div>
-                    </div>
-                </div>
                 <div class="weuiarrow-filled1">
                     <img class="vector-icon1" alt="" src="../asset/Vector_right.png">
-
                 </div>
             </div>
         </div>
@@ -687,4 +651,5 @@
     </div>
     <script src="../js/home.js"></script>
 </body>
+
 </html>
