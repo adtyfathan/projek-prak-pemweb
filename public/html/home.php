@@ -1,29 +1,26 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, width=device-width">
     <title>Cungkou Tours</title>
+    <link rel="icon" href="../asset/favicon.png">
     <link rel="stylesheet" href="../css/home.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" />
     <?php include "../php/home.php"?>
 </head>
-
 <body>
     <div class="home">
         <div class="frame-parent">
             <div class="frame-group">
                 <div class="frame-container">
                     <div class="material-symbolscall-outline-parent">
-                        <img class="material-symbolscall-outline-icon" alt=""
-                            src="../asset/material-symbols_call-outline.png">
+                        <img class="material-symbolscall-outline-icon" alt="" src="../asset/material-symbols_call-outline.png">
 
                         <div class="div">+1 3756 29391234</div>
                     </div>
                     <div class="material-symbolscall-outline-parent">
-                        <img class="material-symbolscall-outline-icon" alt=""
-                            src="../asset/material-symbols_call-outline.png">
+                        <img class="material-symbolscall-outline-icon" alt="" src="../asset/material-symbols_call-outline.png">
 
                         <div class="div">+1 3756 29391234</div>
                         <div class="div">/</div>
@@ -43,24 +40,32 @@
                     <a href="home.php">
                         <div class="cungkuo-tour">Cungkuo Tour</div>
                     </a>
-
                 </div>
                 <div class="frame-parent1">
                     <div class="frame-parent2">
-                        <div class="china-tours-parent">
-                            <div class="div">China Tours</div>
-                            <img class="icsharp-expand-more-icon" alt="" src="../asset/ic_sharp-expand-more.png">
-                            <div class="dropdown_menu">
-                                <ul>
-                                    <li><a href="#">China Tours Main</a></li>
-                                    <li><a href="#">Top 10 China Tours</a></li>
-                                    <li><a href="#">1 Week Tours</a></li>
-                                    <li><a href="#">China Tour Package</a></li>
-                                    <li><a href="#">Student Tours</a></li>
-                                    <li><a href="#">China Theme Tours</a></li>
-                                </ul>
+                            <div class="china-tours-parent">
+                                <div class="div">China Tours</div>
+                                <img class="icsharp-expand-more-icon" alt="" src="../asset/ic_sharp-expand-more.png">
+                                <div class="dropdown_menu">
+                                    <div class="dropdown-columns">
+                                        <div class="dropdown-column">
+                                            <a href="#">Best China Tours</a>
+                                            <a href="#">Senior Friendly Tours</a>
+                                            <a href="#">Top 4 Best China Tours</a>
+                                            <a href="#">1 Week Tours</a>
+                                        </div>
+                                        <div class="dropdown-column">
+                                            <a href="#">China Tour Package</a>
+                                            <a href="#">China Tour for Students</a>
+                                            <a href="#">1st Time Travel China</a>
+                                            <a href="#">China Theme</a>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown-button">
+                                        <a href="#" class="all-theme-tours-button">All Theme Tours</a>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
                         <div class="china-tours-parent">
                             <div class="div">About Us</div>
                             <img class="icsharp-expand-more-icon" alt="" src="../asset/ic_sharp-expand-more.png">
@@ -93,7 +98,7 @@
         </div>
 
         <div class="image-2-parent">
-            <img class="image-2-icon" alt="" src="../asset/image_home.jpg">
+            <img class="image-2-icon" alt="" src="../asset/4.jpg">
 
             <div class="image-3">
             </div>
@@ -153,8 +158,8 @@
         <div class="china-odyssey-tours-its-you-parent">
             <div class="china-odyssey-tours">China Odyssey Tours | It's Your Very Own China Journey!</div>
             <div class="china-odyssey-tours-container">
-                <p class="china-odyssey-tours-has-been-p">China Odyssey Tours has been providing private, bespoke
-                    tours of China since the 1990s, ensuring that each traveler enjoys a unique and delightful
+                <p class="china-odyssey-tours-has-been-p">China Odyssey Tours has been providing private, bespoke
+                    tours of China since the 1990s, ensuring that each traveler enjoys a unique and delightful
                     journey.
                     Our team of travel experts, all native to China, has a deep understanding of the country's rich
                     culture, history, and hidden gems. From the moment you
@@ -166,7 +171,7 @@
                     authentic experiences, hand-picked accommodations, expert guides, and 24/7 customer service.
                 </p>
                 <p class="china-odyssey-tours-has-been-p">&nbsp;</p>
-                <p class="china-odyssey-tours-has-been-p">With 98.5% of customers awarding us a 5-star rating, you
+                <p class="china-odyssey-tours-has-been-p">With 98.5% of customers awarding us a 5-star rating, you
                     can
                     be confident that your experience with us will exceed your expectations.</p>
             </div>
@@ -182,7 +187,7 @@
                         <a class="send-us-an-inquiry" href="https://www.chinaodysseytours.com/contact-us.htm"
                             target="_blank">
                             <span class="send-us-an">Send us an inquiry,</span>
-                        </a> and our travel experts will reach out to help you plan a trip to China that fits your
+                        </a> and our travel experts will reach out to help you plan a trip to China that fits your
                         preferences perfectly.
                     </div>
                 </div>
@@ -225,7 +230,7 @@
             </div>
             <div class="frame-parent7">
                 <div class="popular-private-china-tours-parent">
-                    <div class="experience-a-trip">Experience a trip of a lifetime with our top-rated small-group
+                    <div class="experience-a-trip">Experience a trip of a lifetime with our top-rated small-group
                         China
                         tours! Journey through iconic destinations such as Beijing, Xi'an, Shanghai, Lhasa, and
                         Chengdu.
@@ -275,7 +280,7 @@
                 <div class="experience-a-trip">Feeling lost on how to plan your China trip? Our
                     <a class="send-us-an-inquiry" href="https://www.chinaodysseytours.com/inspiration/" target="_blank">
                         <span class="send-us-an">travel guides</span>
-                    </a> are designed to provide you with complete tips and suggestions about China travel, from
+                    </a> are designed to provide you with complete tips and suggestions about China travel, from
                     visa
                     information to the best times to visit, top attractions, and authentic experiences.
                 </div>
@@ -316,7 +321,7 @@
                 <div class="tailor-my-trip">Tailor My Trip</div>
             </div>
             <div class="frame-wrapper6">
-                 <div class="frame-parent30">
+                <div class="frame-parent30">
                     <div class="image-6-parent16">
                         <img class="image-6-icon18" alt="" src="../asset/Xiao Ditya.jpg">
 
@@ -385,7 +390,7 @@
                 <div class="china-odyssey-tours">China Tour by Themes</div>
                 <div class="experience-a-trip">Whether you are planning a family vacation or a senior tour, our
                     travel
-                    specialists will customize the trip to perfectly match your interests and budget. Reach out to
+                    specialists will customize the trip to perfectly match your interests and budget. Reach out to
                     us,
                     and let China Odyssey Tours bring your dream trip to life!</div>
             </div>
@@ -680,10 +685,6 @@
             </div>
         </div>
     </div>
-    <<<<<<< HEAD <script src="../js/home.js">
-        </script>
-        =======
-        >>>>>>> 87ff3ca6e67c24e31b72aaa4c540061b19da0221
+    <script src="../js/home.js"></script>
 </body>
-
 </html>
