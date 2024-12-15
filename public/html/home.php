@@ -16,7 +16,20 @@
         <div class="frame-parent">
             <div class="frame-group">
                 <div class="frame-container">
-                    <a href="admin.php">Admin Panel</a>
+                    <?php
+                        include("../php/koneksi.php");
+
+                        $stmt = $koneksi->prepare("SELECT * FROM users WHERE id = ?");
+                        $stmt->bind_param("i", $_SESSION['id']);
+                        $stmt->execute();
+                        $result = $stmt->get_result();
+                        
+                        while ($row = $result->fetch_assoc()) {
+                            if($row['role'] === "admin"){
+                                echo "<a href='admin.php'>Admin Panel</a>";
+                            }
+                        }
+                    ?>
                     <div class="material-symbolscall-outline-parent">
                         <img class="material-symbolscall-outline-icon" alt=""
                             src="../asset/material-symbols_call-outline.png">

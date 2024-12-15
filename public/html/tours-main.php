@@ -41,7 +41,9 @@
                 <div class="material-symbolstravel-parent">
                     <img class="material-symbolstravel-icon" alt="" src="../asset/material-symbols_travel.png">
 
-                    <div class="cungkuo-tour">Cungkuo Tour</div>
+                    <a href="home.php">
+                        <div class="cungkuo-tour">Cungkuo Tour</div>
+                    </a>
                 </div>
                 <div class="frame-parent1">
                     <div class="frame-parent2">
@@ -74,13 +76,18 @@
 
                         </div>
                         <div class="contact-us-wrapper">
-                            <div class="div">Logout</div>
+                            <a href="../php/logout.php">
+                                <div class="div">Logout</div>
+                            </a>
+
                         </div>
                     </div>
                     <div class="icbaseline-search-parent">
                         <img class="icsharp-expand-more-icon" alt="" src="../asset/ic_baseline-search.png">
 
-                        <div class="div">Search Tours</div>
+                        <div class="div">
+                            <input id="search-input" type="text" placeholder="Search" />
+                        </div>
                     </div>
                 </div>
             </div>
