@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, width=device-width">
     <title>Cungkou Tours</title>
+    <link rel="icon" href="../asset/favicon.png"/>
     <link rel="stylesheet" href="../css/explore-tour.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" />
     <?php include "../php/explore-tour.php"?>
 </head>
 </head>
-
 <body>
     <div class="explore-tour">
         <div class="frame-parent">
@@ -47,9 +46,27 @@
                     <div class="frame-parent2">
                         <div class="china-tours-parent">
                             <div class="div">China Tours</div>
-                            <img class="icsharp-expand-more-icon" alt="" src="../asset/ic_sharp-expand-more.png">
-
-                        </div>
+							<img class="icsharp-expand-more-icon" alt="" src="../asset/ic_sharp-expand-more.png">
+							<div class="dropdown_menu">
+								<div class="dropdown-columns">
+									<div class="dropdown-column">
+										<a href="../html/home.php">Best China Tours</a>
+										<a href="../html/tours-main.php">Senior Friendly Tours</a>
+										<a href="../html/top-10.php">Top 4 Best China Tours</a>
+										<a href="../html/1-week.php">1 Week Tours</a>
+									</div>
+									<div class="dropdown-column">
+										<a href="../html/tour-package.php">China Tour Package</a>
+										<a href="../html/student-tour.php">China Tour for Students</a>
+										<a href="../html/home.php">1st Time Travel China</a>
+										<a href="../html/theme-tour.php">China Theme</a>
+									</div>
+								</div>
+								<div class="dropdown-button">
+									<a href="#" class="all-theme-tours-button">All Theme Tours</a>
+								</div>
+							</div>
+						</div>
                         <div class="china-tours-parent">
                             <div class="div">About Us</div>
                             <img class="icsharp-expand-more-icon" alt="" src="../asset/ic_sharp-expand-more.png">
