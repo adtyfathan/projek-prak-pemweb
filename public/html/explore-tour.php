@@ -510,17 +510,17 @@
         <div class="gallery-group">
             <div class="quick-question">Gallery</div>
             <div class="image-13-parent">
-                <img class="image-13-icon" alt="" src="image 13.png">
+                <img class="image-13-icon" alt="" src="../asset/Renata Christine.jpg">
 
                 <div class="weuiarrow-filled-group">
                     <img class="weuiarrow-filled-icon10" alt="" src="../asset/weui_arrow-up-filled.png">
 
                     <div class="image-14-parent">
-                        <img class="image-14-icon" alt="" src="image 14.png">
+                        <img class="image-14-icon" alt="" src="../asset/JayPark NingYizhuo.jpg">
 
-                        <img class="image-15-icon" alt="" src="image 15.png">
+                        <img class="image-15-icon" alt="" src="../asset/Lenadra Mark lee.jpg">
 
-                        <img class="image-14-icon" alt="" src="image 16.png">
+                        <img class="image-14-icon" alt="" src="../asset/Renata Christine.jpg">
 
                     </div>
                     <img class="weuiarrow-filled-icon10" alt="" src="../asset/weui_arrow-down-filled.png">
