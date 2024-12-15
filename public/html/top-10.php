@@ -46,17 +46,17 @@
                                     <div class="dropdown_menu">
                                         <div class="dropdown-columns">
                                             <div class="dropdown-column">
-                                                <a href="#">Best China Tours</a>
-                                                <a href="#">Senior Friendly Tours</a>
-                                                <a href="#">Top 4 Best China Tours</a>
-                                                <a href="#">1 Week Tours</a>
-                                            </div>
-                                            <div class="dropdown-column">
-                                                <a href="#">China Tour Package</a>
-                                                <a href="#">China Tour for Students</a>
-                                                <a href="#">1st Time Travel China</a>
-                                                <a href="#">China Theme</a>
-                                            </div>
+                                            <a href="../html/home.php">Best China Tours</a>
+                                            <a href="../html/tours-main.php">Senior Friendly Tours</a>
+                                            <a href="../html/top-10.php">Top 4 Best China Tours</a>
+                                            <a href="../html/1-week.php">1 Week Tours</a>
+                                        </div>
+                                        <div class="dropdown-column">
+                                            <a href="../html/tour-package.php">China Tour Package</a>
+                                            <a href="../html/student-tour.php">China Tour for Students</a>
+                                            <a href="../html/home.php">1st Time Travel China</a>
+                                            <a href="../html/theme-tour.php">China Theme</a>
+                                        </div>
                                         </div>
                                         <div class="dropdown-button">
                                             <a href="#" class="all-theme-tours-button">All Theme Tours</a>
